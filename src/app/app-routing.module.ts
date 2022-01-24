@@ -21,6 +21,14 @@ const routes: Routes = [
     loadChildren: () => import('~/app/featured/featured.module').then((m) => m.FeaturedModule),
   },
   {
+    path: 'game',
+    loadChildren: () => import('~/app/game/game.module').then((m) => m.GameModule),
+  },
+  {
+    path: 'informacion',
+    loadChildren: () => import('~/app/informacion/informacion.module').then((m) => m.InformacionModule),
+  },
+  {
     path: 'settings',
     loadChildren: () => import('~/app/settings/settings.module').then((m) => m.SettingsModule),
   },

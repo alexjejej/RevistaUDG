@@ -5,6 +5,7 @@ import { Application } from '@nativescript/core'
 @Component({
   selector: 'Featured',
   templateUrl: './featured.component.html',
+   
 })
 export class FeaturedComponent implements OnInit {
   constructor() {
