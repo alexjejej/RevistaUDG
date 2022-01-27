@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { RadSideDrawer } from 'nativescript-ui-sidedrawer'
 import { EventData } from '@nativescript/core'
-import { isAndroid, isIOS, device, screen } from "tns-core-modules/platform";
 import { Application } from '@nativescript/core';
 
 
